@@ -1,0 +1,24 @@
+.shoppingCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25rem;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: start;
+    margin: auto;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.shoppingCardContainer h3 {
+    margin: 0;
+    background: royalblue;
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.shoppingCardContainer h3:hover {
+    background: rgb(101, 128, 211);
+}

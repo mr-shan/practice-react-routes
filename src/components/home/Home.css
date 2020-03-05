@@ -1,0 +1,10 @@
+.home-container {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.home-container div {
+    margin: 1em;
+}

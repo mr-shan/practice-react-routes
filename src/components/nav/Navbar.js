@@ -14,7 +14,7 @@ export default props => {
     <nav className={styles.nav}>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <NavLink to="/shopping-list">Shopping List</NavLink>
+          <NavLink to="/shopping">Shopping List</NavLink>
         </li>
         <li className={styles.li}>
           <NavLink to="/shopping-cart">Shopping Cart ({cartCount})</NavLink>

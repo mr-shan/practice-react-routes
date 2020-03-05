@@ -1,0 +1,27 @@
+.shoppingItemContainer {
+
+    width: 25rem;
+    padding: 1rem;
+    padding-top: 0.25rem;
+    background: rgba(0, 0, 0, 0.1);
+    text-align: start;
+    margin: auto;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.shoppingItemContainer button {
+    padding: 0.4rem 0.8rem;
+    background: royalblue;
+    color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+.shoppingItemContainer button:hover {
+    background: rgba(65, 105, 225, 0.9);
+}
